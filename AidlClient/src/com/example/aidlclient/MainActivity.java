@@ -65,7 +65,7 @@ public class MainActivity extends Activity implements OnClickListener  {
 			if(mService == null)
 			{
 				Intent it = new Intent();
-				it.setAction("com.remote.service.CALCULATOR");
+				it.setAction("com.remote.service.ADDITION");
 				//binding to remote service
 				bindService(it, mServiceConnection, Service.BIND_AUTO_CREATE);
 			}

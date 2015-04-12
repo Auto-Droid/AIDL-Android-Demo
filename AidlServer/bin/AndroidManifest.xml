@@ -25,7 +25,7 @@
        <service android:name=".ArithmeticService"
 					 android:process=":remote">
 				<intent-filter >
-					<action android:name="com.remote.service.CALCULATOR"/>
+					<action android:name="com.remote.service.ADDITION"/>
 				</intent-filter>
 			</service>
     </application>
